@@ -1,6 +1,6 @@
 package com.syntax.class01;
 
-public class PrimitiveDataTypes {
+public class PrimitiveDataTypes_2 {
 
 	public static void main(String[] args) {
 		// Whole numbers		

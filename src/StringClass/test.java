@@ -1,21 +1,20 @@
 package StringClass;
 
-import java.util.Scanner;
+public class Test {
 
-public class test {
+	//static String surround (String s, String search_term){
+	void a() {
+	    String s = ("abcaydajak");
+	    s = s.replaceAll("[a]", "()");
+	    System.out.println(s);
+	  }
+		//test case below (dont change):
+		public static void main(String[] args){
+			Test obj = new Test();
+			obj.a();
+			/*
+			 * System.out.println(surround("abcabcabc","c")); //"ab(c)ab(c)ab(c)"
+			 * System.out.println(surround("technology","o")); //"techn(o)l(o)gy"
+			 */		}
 
-		  public static void main(String[] args) {
-			  Scanner inp = new Scanner(System.in);
-			    System.out.print("In:");
-			    String word = inp.nextLine();
-			    
-			    for(int i =0; i<word.length(); i++) {
-				    	
-			    	char s = word.charAt(i);
-			    	System.out.print(s+" ");
-			    	//System.out.print(" ");
-			    }
-			    
-
-	}
 }
